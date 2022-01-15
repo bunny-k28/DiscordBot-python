@@ -1,0 +1,48 @@
+_**Commands for @everyone:**_
+
+```
+1. b.cmd -> list out all the bot commands.
+
+2. b.userID -> display your user ID.
+
+3. b.events -> display upcomming events.
+
+4. b.teachers -> displays the teacher's college and server details.
+
+5. !help <command> - To elaborate a specific command.
+
+6. b.add_event <event date>-<event> -> add a new event to the database.
+
+7. b.del_event <event date>-<event> -> removes the event from the database.
+
+8. b.fdb <feedback> -> sends feedback to the database.
+
+9. b.cc <int> -> deletes the recent no. of messages mentioned
+
+```
+
+_**Commands for @Teachers:**_
+
+```
+1. b.clean_data_from <table name from database> -> clear the mentioned table from the database if exist.
+
+2. b.kick <member ID>-<reason of kicking> -> removes the mentioned member from the server and DM the reason to that member.
+
+3. b.put_marks <student GUID>-<exam period>-<Subject>-<Mark gained by student> -> updates the marks of the specified student
+
+4. b.t_login <Full Nmae>-<teaching subject> -> gives you the teacher pass.
+
+5. b.students -> displays the student's college and server details.
+
+```
+
+_**Commands for @Students:**_
+
+```
+1. b.s_login <Full Name>-<college roll no.>-<branch> -> gives you the student pass of this server.
+
+2. b.marks <student GUID> -> show your marks
+
+3. b.verify <login ID given by school> -> gives you the access to voice channels.
+
+```
