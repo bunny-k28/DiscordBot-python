@@ -3,19 +3,11 @@ import pandas as pd
 import random as r
 
 
-TOKEN = 'OTE5NTY2MjU1NDQ1Mzg5MzYz.YbXq0A.mQGapPY1T8ZlObCawh688h8qZ4A'
+TOKEN = 'your bot token'
 
 
 error_points = []
 
-# welcome = """Hey there @everyone
-
-# The bot prefix for this server is: ``b.``
-# The help command to see all commands is ``b.cmd``
-# To elaborate a command use ``!help <command>``
-
-# Have a good day here :slight_smile:
-# """
 
 hello = """Welcome to this official discord server of `KIIT PolyTechnic C.Sc`
 If you're a Tutor mentor teacher or Guest then pick your role/pass from #welcome
@@ -43,49 +35,6 @@ fdb_reply_1 = """-Thank you for sending your feedback
 fdb_reply_2 = "-Your feedback will help us to improve this server's performance and your experience with KIIT PolyTechnic C.Sc server."
 
 no_cmd_use_mesg = 'You can not use commands in this channel. Head towards #command-section to use these commands'
-
-# nickname_policy_description = """In order to keep things pleasant and workable for both users and staff members, 
-# we enforce the following requirements regarding your nickname. **Teachers** reserves the right to change the nickname of any user for any reason. Failure to comply with these requirements may result in you losing the right to 
-# change your nickname. We also reserve the right to discipline users with offensive usernames, regardless of the nickname they're using.
-# """
-
-# nickname_rules = """**Rule :one: **
-# No blank or "invisible" names
-
-# **Rule :two: **
-# No slurs or other offensive sentiments
-
-# **Rule :three: **
-# No noisy unicode characters - for example, z̯̯͡a̧͎̺l̡͓̫g̹̲o̡̼̘ or byte order marks
-
-# **Rule :four: **
-# No nicknames designed to annoy other users
-
-# **Rule :five: **
-# Your nickname should match to your name you've given to college at the time of admission
-# """
-
-
-# code of conduct points
-# good_behaviour = """• Be kind and courteous to others
-# • Using welcoming and inclusive language
-# • Being respectful of differing viewpoints and experiences
-# • Gracefully accepting constructive criticism
-# • Focusing on what is best for the college
-# • Showing empathy towards other members
-# """
-
-# bad_behaviour = """• The use of sexualized language or imagery and sexual attention or advances
-# • The use of inappropriate images, including in a server member's avatar
-# • The use of inappropriate language, including in a server member's nickname
-# • Any spamming, flaming, baiting or other attention-stealing behavior
-# • Trolling, insulting/derogatory comments, and personal or political attacks
-# • Public or private harassment
-# • Publishing others' private information, such as a physical or electronic address, without explicit permission
-# • Discussing topics that are overly polarizing, sensitive, or incite arguments. This includes the discussion of polarizing political views, violence, suicide, and rape.
-# • Responding with “RTFM”, “just google it” or similar phrases in response to help requests
-# • Other conduct which could reasonably be considered inappropriate
-# """
 
 
 # error messages
